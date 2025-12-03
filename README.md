@@ -1,4 +1,4 @@
-# Supermarket Customer Gender Classification with GA Feature Selection
+# Dataset Classification using ML + Genetic Algorithm for Feature Selection
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2-green)
@@ -7,22 +7,38 @@
 ---
 
 ## **Project Overview**
-This project predicts **customer gender** in a supermarket dataset using machine learning. It applies **Genetic Algorithm (GA) feature selection** to improve model performance.  
+This project implements several Machine Learning models (KNN, NB, SVM, ANN, RF) for a classification problem. We also apply a Genetic Algorithm (GA) for feature selection and compare performance before and after feature reduction.
 
 **Key objectives:**
 - Train and evaluate four models: **KNN, SVM, Naive Bayes, ANN**  
 - Apply GA to select the most relevant features  
 - Compare performance **before and after GA**  
-- Visualize **confusion matrices** and **metric comparison charts**  
+- Visualize **confusion matrices** and **metric comparison charts**
+
+
+**Team Members**
+- Member 1: Mario Ashraf
+
+- Member 2: Mark Ashraf
+
+- Member 3: Matthew Mokhles
+
+- Member 4: Veronia Gamil
 
 ---
 
 ## **Dataset**
-- File: `SuperMarket Analysis.csv`  
-- Target variable: `Gender` (binary)  
-- Features: Categorical and numerical customer data  
-- Missing values are imputed with the **mode**  
-- Categorical columns are encoded using **LabelEncoder**  
+- Dataset 1 Breast Cancer Wisconsin (Diagnostic) Data Set, source: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+- Dataset 2 source: UCI / Kaggle
+- Dataset 3 source: UCI / Kaggle
+- Dataset 4 source: UCI / Kaggle
+
+
+**Preprocessing Applied:**
+- Handling missing values
+- Encoding categorical data
+- Feature scaling/normalization
+- Splitting into training/testing sets
 
 ---
 
@@ -58,5 +74,13 @@ python supermarket_ga_analysis.py
 - Change target variable: update `target` in the script  
 - Tune GA: adjust `POP_SIZE`, `N_GEN`, `CX_PB`, `MUT_PB` for better results  
 - Models and hyperparameters can be modified in `evaluate_models()`  
+
+---
+
+## **Video Presentations**
+- Mario: link
+- Mark: link
+- Matthew: link
+- Veronia: links
 
 ---
