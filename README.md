@@ -29,8 +29,8 @@ This project implements several Machine Learning models (KNN, NB, SVM, ANN, RF) 
 
 ## **Dataset**
 - Dataset 1: Breast Cancer Wisconsin (Diagnostic) Data Set, source: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
-- Dataset 2: Heart Disease Dataset, https://archive.ics.uci.edu/dataset/45/heart+disease
-- Dataset 3 source: UCI / Kaggle
+- Dataset 2: Heart Disease Dataset, source: https://archive.ics.uci.edu/dataset/45/heart+disease
+- Dataset 3 SuperMarket Analysis, source: https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales
 - Dataset 4 source: UCI / Kaggle
 
 
